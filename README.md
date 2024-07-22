@@ -1,2 +1,3 @@
 # MangosOrange
-A simple repository for learning
+Web page design using html css task
+
