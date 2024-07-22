@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+}
+nav ul li i{
+    margin: 10px;
+}
+nav ul li img{
+    height: 100px;
+    aspect-ratio: 5/2;
+}
+
+section .item-section{
+    display: flex;
+    justify-content: space-around;
+}
+section .item-section span{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+section .item-section span i{
+    margin: 5px;
+}
+section .grid-items .item .full-width-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1d9521; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensures padding is included in the button's total width */
+}
+section .grid-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+section .grid-items item{
+    padding: 20px;
+}
+.flex-row{
+    display: flex;
+    justify-content: center;
+}
+footer .flex-row .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 26px;
+    gap: 20px;
+}
+footer .flex-row .info a:hover{
+    color: #1d9521;
+}
+footer .flex-row .links{
+    padding: 20px;
+    margin: 10px;
+    width: 210px;
+
+}
+footer .flex-row .links div a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 16px;
+}
+footer .flex-row .links div a:hover{
+    color:#1d9521;
+}
+footer .flex-row .links h3{
+    margin-top: 150px;
+}
+footer .flex-row .links div{
+    margin-top: 30px;
+}
+.abs .flex{
+display: flex;
+flex-direction: column;
+height: 100px;
+align-items: flex-end;
+justify-content: space-around;
+}
+
+.abs{
+    position: sticky;
+    bottom: 70px;
+    right: 100px;
+}
